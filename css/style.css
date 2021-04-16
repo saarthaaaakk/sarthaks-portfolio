@@ -267,7 +267,7 @@ header .header-content .content p {
     border-radius: 30px;
     padding: .7rem 2rem;
     margin: 0 .5rem;
-    margin-top: 20px;
+    margin-top: 30px;
     transition: .3s;
     font-size: 3vw;
 
@@ -279,8 +279,8 @@ header .header-content .content p {
 
 .services {
     background-image: url(../images/3.jpg);
-    width: 100vw;
-    background-size: cover;
+    width: 100%;
+    background-size: contain;
     background-position: center;
     background-attachment: fixed;
     position: relative;
@@ -357,11 +357,11 @@ letter-spacing: 2;
 
 .life-history {
     background: url(../images/2.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-attachment: fixed;
     position: relative;
-    width: 100vw;
+    width: 100%;
 }
 
 .life-history::before {
@@ -455,7 +455,7 @@ letter-spacing: 2;
 .contact {
     background: url(../images/4.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     position: relative;
     margin-top: 30px;
